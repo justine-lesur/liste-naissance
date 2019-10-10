@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Liste de naissance</title>
+<link rel="stylesheet" href="liste.css">
+</head>
+
+<body id="body2">
+	<header>
+	<section class= "menu">
+		
+	<h1>Liste de naissance</h1>
+	<nav class="navigation">
+    <ul>
+        <li class="link"><a href="liste.html"><h2 class="lien">Accueil</h2></a></li>
+        <li class="link"><a href="formulaire.html"><h2 class="lien">Formulaire</h2></a></li>
+    </ul>
+</nav>
+	</section>
+	</header>
+	<section class="formulaire">
+		<article class="ajouter">
+		<h2 id="suggestions">Quelque chose à ajouter ?</h2>
+		<p id="suggestions2">Pour toutes les suggestions d'articles, <br/> veuillez remplir ce formulaire</p>
+		</article>
+		<form method="post">
+   <p>
+       <input type="text" name="objet" class="largeur" id="premier" placeholder="Nom de l'objet" />
+       
+       <br />
+       <input type="text" name="lacategorie" class="largeur" placeholder="Catégorie"/>
+       
+   </p>
+   <p>
+
+       <textarea name="description" class="largeur" placeholder="Description"></textarea>
+   </p>
+   <p>
+       <input type="url" name="lien" class="largeur" placeholder="https://" />
+       </p>
+   <p class="besoin">
+       <input type="radio" name="besoin" value="besoin" id="urgent" /> <label for="urgent">Urgent</label><br />
+       <input type="radio" name="besoin" value="besoin" id="normal" /> <label for="normal">Normal</label><br />
+   </p>
+		<p>
+       <input type="file" name="image" accept="image/png, image/jpg" />
+       </p>
+
+   <p>
+       <input type="submit" id="bouton" value="Envoyer" />
+       </p>
+</form>
+	</section>
+</body>
+</html>
